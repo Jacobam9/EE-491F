@@ -2,11 +2,12 @@
     <head id="Header">
         <title>HTML EE491F Marutani</title>
     </head>
+    <link rel="stylesheet" href="Styles.css">
     <body>
         <h1>A heading with font:1</h1>
-        <h2>The heading with font:2</h2>
-        <h3>Heading with font:3</h3>
-        <h4>Is a heading with font:4?</h4>
+        <h2 header>The heading with font:2</h2>
+        <h3 header="attribute-value">Heading with font:3</h3>
+        <h4 header>Is a heading with font:4?</h4>
         <h5>Which heading with font:5?</h5>
         <h6>THE heading with font:6!!</h6>
         <p>This is a very cool way of designing a webpage</p>
@@ -25,15 +26,21 @@
               <td>$500</td>
             </tr>
               <tr>
-                <td>January</td>
+                <td id="FEB">February</td>
                 <td>$750</td>
               </tr>
         </table>
         <div>
-            <ol>
+            <ol class="Fruits">
                 <li>Banana</li>
                 <li>Apple</li>
                 <li>Strawberry</li>
+            </ol>
+            <ol class="Veg">
+              Vegtables
+              <li>Lettuce</li>
+              <li>Spinach</li>
+              <li>Carrots</li>
             </ol>
             <ul style="list-style-type: disc">
                 <li>Towel</li>
@@ -41,8 +48,17 @@
                 <li>Shovel</li>
             </ul>
         </div>
+        <div>
+          <p>This will be the highlighted paragraph.</p>
+          <div>
+            A divide in a divide
+          </div>
+        </div>
         <footer id="footer">
-          This is a foot
+          This is a footer
         </footer>
+        <p class="Final" Statement>
+          Thank you for looking at my website
+        </p>
      </body>
 </html>

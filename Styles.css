@@ -1,0 +1,33 @@
+li, footer {
+    color: red;
+  } 
+h1 {
+    color: black;
+    margin-left: 50px;
+  } 
+#FEB {
+    color:blue;
+}
+.Important {
+    color:indigo;
+}
+[header] {
+    color:hotpink;
+}
+[header="attribute-value"] {
+    color:rgb(17, 153, 51)
+}
+.Fruits > li{
+    color:fuchsia;
+}
+div p {
+    background-color: yellow;
+}
+.Final[statement] {
+    background-color:aqua;
+}
+div {
+    border: solid 1px black;
+    margin: 5px;
+    padding: 8px;
+}
